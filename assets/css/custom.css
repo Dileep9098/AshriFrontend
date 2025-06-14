@@ -1,0 +1,41 @@
+.service-box:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.service-box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    
+}
+
+.customBtn{
+    background-color: #002B5B;
+    color: white;
+
+}
+.carousel-media {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .carousel-media {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-media {
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-media {
+    height: 200px;
+  }
+}
